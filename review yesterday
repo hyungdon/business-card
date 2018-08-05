@@ -1,0 +1,7 @@
+lyrics="ba ba ba ba barbara ann ba ba ba ba barbara ann"
+list_of_words=lyrics.split(' ')
+unique_words=set (list_of_words)
+word_histogram = dict.fromkeys (unique_words, 0)
+for word in list_of_words
+  word_histogram[word] = [word]+1
+print (word_histogram)
